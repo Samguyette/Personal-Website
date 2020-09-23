@@ -1,0 +1,66 @@
+/* Cover Photo */
+body {
+	/*background-color: rgb(129,206,249);*/
+	background-color: white;
+	font-family: 'Baloo 2', cursive;
+}
+.hero {
+	width: 100%;
+	height: 100vh;
+	background: url(img/landing-5.jpg) top center;
+	background-size: cover;
+	position: relative;
+}
+.bar_el {
+	margin-left: 35px;
+}
+.hero .hero-container {
+	margin-top: 10%;
+	margin-left: 13%;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+.navbar-brand, .navbar-nav li a {
+	line-height: 60px;
+	height: 60px;
+	padding-top: 0;
+}
+.contact_btn {
+	margin-top: 2%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.about {
+	margin-top: 4%;
+}
+@media screen and (min-width: 801px) {
+	.main_text {
+		font-size: 50px;
+	}
+	.about_text {
+		font-size: 20px;
+	}
+	.headshot {
+		width: 70%;
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main_text {
+		font-size: 4.2vw;
+	}
+	.about_text {
+		font-size: 2.5vw;
+	}
+	.headshot {
+		width: 100%;
+		margin-left: 10%;
+	}
+}
