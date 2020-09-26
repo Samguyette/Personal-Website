@@ -43,13 +43,70 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-.featured_work{
+.featured_work {
 	margin-top: 15%;
 	margin-left: 15%
 }
-
-
-
+.card-img-overlay {
+   position: absolute;
+   background: rgba(80, 151, 204, 0.9);
+   width: 100%;
+   transition: .5s ease;
+   opacity:0;
+}
+.go_btn {
+	margin-top: 50%;
+}
+.card1:hover .card-img-overlay {
+   opacity: 1;
+}
+.card2:hover .card-img-overlay {
+   opacity: 1;
+}
+.card3:hover .card-img-overlay {
+   opacity: 1;
+}
+.card4:hover .card-img-overlay {
+   opacity: 1;
+}
+.past_work {
+	margin-top: 15%;
+}
+.right_sidebar {
+	position: fixed;
+	transform: rotate(90deg);
+	right: 30px;
+	left: auto;
+	bottom: -30px;
+	width: 285px;
+	z-index: 10;
+}
+.left_sidebar {
+	position: fixed;
+	left: 30px;
+	right: auto;
+	bottom: 0px;
+	width: 40px;
+	z-index: 10;
+}
+.fa {
+	margin-top: 30px;
+}
+.vll {
+  border-left: 1px solid black;
+  margin-top: 30px;
+  margin-left: 24%;
+  height: 200px;
+}
+.vlr {
+  border-left: 1px solid black;
+  transform: rotate(90deg);
+  margin-top: 30px;
+  height: 200px;
+}
+.email {
+	margin-left: -150px;
+}
 
 
 @media screen and (min-width: 801px) {

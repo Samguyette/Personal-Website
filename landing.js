@@ -4,13 +4,6 @@ $(document).ready(function() {
 		if(scrollPercent > 1 || scrollPercent < 0){
 			scrollPercent = 1;
 		}
-		console.log(scrollPercent)
 		$(".hero").css({"opacity" : scrollPercent})
-		// if($(this).scrollTop() > 150){
-		// 	$(".hero").css({"opacity" : "0"})
-		// }
-		// else {
-		// 	$(".hero").css({"opacity" : "1"})
-		// }
 	})
 });
