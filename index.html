@@ -5,20 +5,22 @@
 		<!-- Bootstrap CSS include -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<!-- Raw CSS include -->
-		<link rel="stylesheet" type="text/css" href="landing.css">
+		<link rel="stylesheet" type="text/css" href="css/landing.css">
+		<link rel="stylesheet" type="text/css" href="css/movement.css">
 		<!-- Font awesome include -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
 		<!-- jQuery -->
 		<script type="text/javascript" src="lib/jquery-3.5.1.js"></script>
 	</head>
 	
 	<body>
-		<section class="hero">
+		<section class="hero baloo">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg navbar-trans navbar-light">
-					<a class="navbar-brand" href="#">Sam Guyette</a>
+					<a class="navbar-brand" href="http://www.samguyette.com">Sam Guyette</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"	aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>
@@ -27,43 +29,46 @@
 							<a class="nav-link bar_el" href="#a">About</a>
 							<a class="nav-link bar_el" href="#b">Featured Work</a>
 							<a class="nav-link bar_el" href="#c">Experience</a>
-							<a class="resume btn btn-outline-dark my-2 my-sm-0 bar_el"href="docs/Sam_Guyette_Resume.pdf" download>Resume</a>
+							<a class="resume btn btn-outline-dark my-2 my-sm-0 bar_el hvr-grow"href="docs/Sam_Guyette_Resume.pdf" download>Resume</a>
 						</div>
 					</div>
 				</nav>
 				<div class="hero-container">
 					<h1 class="main_text">Hey, I'm Sam - A Software</h1>
 					<h1 class="main_text">Developer from Los Angeles.</h1>
-					<a href="mailto:samguyette@gmail.com" class="btn btn-outline-light contact_btn">Get in Touch</a>
+					<a href="mailto:samguyette@gmail.com" class="btn btn-outline-light contact_btn hvr-grow">
+						<span class="text-dark">Get in Touch</span>
+					</a>
 				</div>
 			</div>
 		</section>
 		<!-- side bars -->
-		<div class="right_sidebar">
-			<div class="email"><a href="mailto:samguyette@gmail.com">samguyette@gmail.com</a></div>
+		<div class="right_sidebar baloo">
+			<div class="email hvr-backward "><a href="mailto:samguyette@gmail.com">samguyette@gmail.com</a></div>
 			<div class="vlr"></div>
 		</div>
 		<div class="left_sidebar">
 			<a href="https://github.com/samguyette">
-				<img class="fa" src="https://img.icons8.com/material-rounded/28/000000/github.png"/>
+				<img class="fa hvr-bounce-in" src="https://img.icons8.com/material-rounded/28/000000/github.png"/>
 			</a>
 			<a href="https://www.linkedin.com/in/sam-guyette/">
-				<img class="fa" src="https://img.icons8.com/android/24/000000/linkedin.png"/>
+				<img class="fa hvr-bounce-in" src="https://img.icons8.com/android/24/000000/linkedin.png"/>
 			</a>
 			<a href="https://www.instagram.com/samguyette/">
-				<img class="fa" src="https://img.icons8.com/metro/24/000000/instagram-new.png"/>
+				<img class="fa hvr-bounce-in" src="https://img.icons8.com/metro/24/000000/instagram-new.png"/>
 			</a>
 			<a href="https://twitter.com/samguyettee">
-				<img class="fa" src="https://img.icons8.com/android/24/000000/twitter.png"/>
+				<img class="fa hvr-bounce-in" src="https://img.icons8.com/android/24/000000/twitter.png"/>
 			</a>
 			<div class="vll"></div>
 		</div>
+		<!-- about -->
 		<div class="about container" id="a">
-			<h1>About</h1>
+			<h1 class="baloo">About</h1>
 			<div class="row">
 				<div class="col-7">
-					<p class="about_text">Hello! I'm an aspiring software engineer interested with with the intersection between software development and brand awareness.<br>What excites me about coding is the concept that any new idea can be converted into a reality and the excitment of never know when that idea will appear.<br>
-					I am always learning through research and development.<br>
+					<p class="about_text">Hello! I'm an aspiring software engineer interested in the intersection between software development and brand awareness. What excites me about coding is the concept that any new idea can be converted into a reality and never knowing when that idea will appear.<br>
+					I am always learning through research and development.
 					<!-- I recently have graduated from <a href="https://www.ucsc.edu">UC Santa Cruz</a> and am currently looking for employment that sounds interesting. --><br><br>
 					Here are a few technologies I've been working with recently:
 					</p>
@@ -77,16 +82,16 @@
 					</ul>
 				</div>
 				<div class="col-5">
-					<img class="headshot" src="img/headshot.jpg">
+					<img class="headshot hvr-box-shadow-outset" src="img/headshot.jpg">
 				</div>
 			</div>
 		</div>
 
 		<div class="container featured_work" id="b">
-			<h1 class="built_text">Some Things I Have Built</h1>
+			<h1 class="built_text baloo">Some Things I Have Built</h1>
 			<div class="row">
 				<div class="col-lg-6 col-sm-12 mt-3">
-					<div class="card card1">
+					<div class="card card1 hvr-shrink">
 						<img class="card-img-top" src="img/project1.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">Pup Bowl Map</h4>
@@ -94,27 +99,27 @@
 								Created a website where dog owners can find water bowls around their neighborhood using the Google Maps Platform and Geocoding API.<br>
 								Allows residents to print out a poster, take a photo of their bowl, and add the bowl with a name, message, and photo to the public map where other dog walkers can discover it.
 							</p>
-							<a href="http://www.pupbowlmap.com"><img src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
+							<a href="http://www.pupbowlmap.com"><img class="hvr-grow" src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-sm-12 mt-3">
-					<div class="card card2">
+					<div class="card card2 hvr-shrink">
 						<img class="card-img-top" src="img/project2.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">Cryptocurrency Twitter Bot</h4>
 							<p class="card-text">
 								Twitter bot that finds popular cryptocurrency traders on Twitter, analyzes their tweets and behaviors, and outputs which top three investments they have tweeted about the most over the past year.<br>
-								The script shares its findings on Twitter, @tweetbot209​.
+								The script shares its findings on Twitter, @tweetbot209.
 							</p>
-							<a href="https://twitter.com/tweetbot209"><img src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
+							<a href="https://twitter.com/tweetbot209"><img class="hvr-grow" src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-6 col-sm-12 mt-3">
-					<div class="card card3">
+					<div class="card card3 hvr-shrink">
 						<img class="card-img-top" src="img/project4.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">Custom Label Printing App</h4>
@@ -127,7 +132,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-sm-12 mt-3">
-					<div class="card card4">
+					<div class="card card4 hvr-shrink">
 						<img class="card-img-top" src="img/project3.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">Monterey Scottish Games & Celtic Festival Website</h4>
@@ -135,7 +140,20 @@
 								Designed and developed a user friendly website for the 53rd Annual Monterey Scottish Games & Celtic Festival.<br>
 								The website allows the 5,000+ attendees to buy tickets, register for competitions, and learn more about the festival.
 							</p>
-							<a href="https://montereycelticfest.com"><img src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
+							<a href="https://montereycelticfest.com"><img class="hvr-grow" src="https://img.icons8.com/ios/32/000000/external-link-squared.png"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-sm-12 mt-3">
+					<div class="card card3 hvr-shrink">
+						<img class="card-img-top" src="img/project5.jpg" alt="Card image">
+						<div class="card-img-overlay">
+							<h4 class="card-title">Student React</h4>
+							<p class="card-text">
+								In a three-person team, created an Android application that streamlines the communication process between students and professors during lectures. StudentReact creates a virtual classroom through FireBase where students can log in, ask questions, and up vote already posted questions.<br>Professors are also able to post topics during lectures where students respond with their own level of understanding.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -143,20 +161,22 @@
 		</div>
 
 		<div class="container work_timeline" id="c">
-			<h1>Where I've Worked</h1>
+			<h1 class="baloo">Where I've Worked</h1>
 			<ul class="timeline">
 				<li>
 					<div class="timeline-badge">
 						<img class="msg_logo" src="img/newlogo.png">
 					</div>
 					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">Monterey Scottish Games & Celtic Association</h4>
-							<p><small class="text-muted"><img src="https://img.icons8.com/cotton/15/000000/time.png"/> April - July 2020</small></p>
-						</div>
-						<div class="timeline-body">
-							<p>Early in 2020, I worked as a Web Developer for the Monterey Scottish Games & Celtic Association to design and develop a user friendly website for the 53rd Annual Monterey Scottish Games & Celtic Festival.</p>
-						</div>
+						<span class="hvr-underline-from-left">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">Monterey Scottish Games & Celtic Association</h4>
+								<p><small class="text-muted"><img src="https://img.icons8.com/cotton/15/000000/time.png"/> April - July 2020</small></p>
+							</div>
+							<div class="timeline-body">
+								<p>Early in 2020 I worked as a Web Developer for the Monterey Scottish Games & Celtic Association to design and develop a user friendly website for the 53rd Annual Monterey Scottish Games & Celtic Festival.</p>
+							</div>
+						</span>
 				  	</div>
 				</li>
 				<li class="timeline-inverted">
@@ -164,22 +184,24 @@
 						<img src="https://img.icons8.com/windows/46/000000/epson.png"/>
 					</div>
 					<div class="timeline-panel">
-						<div class="timeline-heading">
-							<h4 class="timeline-title">Epson</h4>
-							<p><small class="text-muted"><img src="https://img.icons8.com/cotton/15/000000/time.png"/> 2018, 2019 Summer</small></p>
-						</div>
-						<div class="timeline-body">
-							<p>In Summer 2018 and 2019 I interned with Epson as a Data Analyst Intern to design and build software to help project management. My main project was to create software for the Professional Imaging department to provide them with a live look at how re-sellers were marketing their products by gathering prices and comparing the data over time, highlighting trends in their specific markets.</p>
-						</div>
+						<span class="hvr-underline-from-left">
+							<div class="timeline-heading">
+								<h4 class="timeline-title">Epson</h4>
+								<p><small class="text-muted"><img src="https://img.icons8.com/cotton/15/000000/time.png"/> 2018, 2019 Summer</small></p>
+							</div>
+							<div class="timeline-body">
+								<p>In the summers of 2018 and 2019 I interned with Epson as a Data Analyst. In this position I designed and built software to provide project management with market intelligence solutions. My main project was to create software for the Professional Imaging department in order to give them a live look at how resellers are marketing their products. The software achieved this by gathering prices and comparing the data over time, highlighting trends in their specific markets.</p>
+							</div>
+						</span>
 				 	</div>
 				</li>
 			</ul>
 		</div>
 		<div class="container get_in_touch">
-			<h1>Get in Touch</h1>
-			<h5>I am currently look for opportunities as a full stack software engineer,<h5>my inbox
-			always open to new ideas!</p>
-			<a href="mailto:samguyette@gmail.com" class="touch_btn btn btn-outline-blue">Say Hello</a>
+			<h1 class="baloo">Get in Touch</h1>
+			<h5>I am currently looking for opportunities as a full stack software engineer.<br>My inbox is
+			always open to new ideas!</h5>
+			<a href="mailto:samguyette@gmail.com" class="touch_btn btn btn-outline-blue hvr-grow">Say Hello</a>
 		</div>
 
 

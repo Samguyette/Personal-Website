@@ -1,0 +1,329 @@
+body {
+	/*background-color: rgb(129,206,249);*/
+	background-color: rgb(248,248,248);
+	font-family: 'Mukta', sans-serif;
+}
+/* fonts */
+.baloo {
+	font-family: 'Baloo 2', cursive;
+}
+/* Cover Photo */
+.hero {
+	width: 100%;
+	height: 100vh;
+	background: url(../img/landing-5.jpg) top center;
+	background-size: cover;
+	position: relative;
+}
+.bar_el {
+	margin-left: 35px;
+}
+.resume {
+	color: black;
+	text-decoration: none;
+}
+.hero .hero-container {
+	margin-top: 10%;
+	margin-left: 13%;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+.navbar-brand, .navbar-nav li a {
+	line-height: 60px;
+	height: 60px;
+	padding-top: 0;
+}
+.contact_btn {
+	margin-top: 2%;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.touch_text {
+	color: gray;
+}
+.about {
+	margin-top: 4%;
+}
+.skills_list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style-type: circle;
+}
+}
+.built_text {
+	text-align: center;
+}
+.featured_work {
+	margin-top: 15%;
+/*	margin-left: 15%*/
+}
+.card-img-overlay {
+   position: absolute;
+   background: rgba(80, 151, 204, 0.9);
+   width: 100%;
+   transition: .5s ease;
+   opacity:0;
+}
+.card-text {
+	font-size: 1.3em;
+}
+.card-title {
+	font-size: 1.6em;
+}
+.card1:hover .card-img-overlay {
+   opacity: 1;
+}
+.card2:hover .card-img-overlay {
+   opacity: 1;
+}
+.card3:hover .card-img-overlay {
+   opacity: 1;
+}
+.card4:hover .card-img-overlay {
+   opacity: 1;
+}
+/* Timeline */
+.work_timeline { 
+	margin-top: 15%;
+ }
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+.msg_logo {
+	width: 45px;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+.timeline > li:after {
+    clear: both;
+}
+.timeline > li > .timeline-panel {
+    width: 44%;
+    background-color: white;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+.timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+.timeline > li > .timeline-badge {
+    color: #fff;
+    width: 74px;
+    height: 74px;
+    line-height: 74px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -37px;
+    background-color: rgba(80, 151, 204);
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+.timeline-body > p + p {
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 53px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+        margin-right: -20px;
+    }
+
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+}
+
+/* Get in touch */
+.get_in_touch {
+	text-align: center;
+	margin-top: 15%;
+}
+.past_work {
+	margin-top: 15%;
+}
+/* Side Bars */
+.right_sidebar {
+	position: fixed;
+	transform: rotate(90deg);
+	right: 30px;
+	left: auto;
+	bottom: -30px;
+	width: 285px;
+	z-index: 10;
+}
+.left_sidebar {
+	position: fixed;
+	left: 30px;
+	right: auto;
+	bottom: 0px;
+	width: 40px;
+	z-index: 10;
+}
+.fa {
+	margin-top: 30px;
+}
+.vll {
+  border-left: 1px solid black;
+  margin-top: 30px;
+  margin-left: 24%;
+  height: 200px;
+}
+.vlr {
+  border-left: 1px solid black;
+  transform: rotate(90deg);
+  margin-top: 30px;
+  height: 200px;
+}
+.email {
+	margin-left: -150px;
+}
+a[href^="mailto:"] { 
+  color: black;
+  text-decoration: none;
+}
+
+/* Get in Touch */
+.touch_btn {
+	background-color: rgba(80, 151, 204);
+	margin-bottom: 25%;
+	margin-top: 1%;
+}
+
+/* Collapse */
+@media screen and (min-width: 801px) {
+	.main_text {
+		font-size: 50px;
+	}
+	.about_text {
+		font-size: 20px;
+	}
+	.headshot {
+		width: 70%;
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.main_text {
+		font-size: 4.2vw;
+	}
+	.about_text {
+		font-size: 2.5vw;
+	}
+	.headshot {
+		width: 100%;
+		margin-left: 10%;
+	}
+}
+
+
