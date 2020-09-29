@@ -22,6 +22,9 @@ body {
 	color: black;
 	text-decoration: none;
 }
+.resume:hover {
+	background: rgba(255,255,255,0.2);
+}
 .hero .hero-container {
 	margin-top: 10%;
 	margin-left: 13%;
@@ -44,6 +47,9 @@ body {
 	white-space: nowrap;
 	overflow: hidden;
 }
+.contact_btn:hover {
+	background: rgba(255,255,255,0.2);
+}
 .touch_text {
 	color: gray;
 }
@@ -54,7 +60,6 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	list-style-type: circle;
-}
 }
 .built_text {
 	text-align: center;
@@ -325,5 +330,3 @@ a[href^="mailto:"] {
 		margin-left: 10%;
 	}
 }
-
-
