@@ -15,3 +15,7 @@ $(document).ready(function (){
 	    }, 1200);
 	});
 });
+$(window).on('load', function() {
+  $('.fade_btn').delay(1500).fadeIn()
+})
+
