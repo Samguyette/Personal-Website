@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![img/screenShot.jpg][img/screenShot.jpg]](http://www.samguyette.com)
+[![Website Screenshot][img/screenShot.jpg]](http://www.samguyette.com)
 
 I decided to create this website as a way for me to keep a visual log of my projects and career accomplishments.
 
