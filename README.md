@@ -32,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Website Screenshot][img/screenShot.jpg]](http://www.samguyette.com)
+[![Website Screenshot][product-screenshot]](http://www.samguyette.com)
 
 I decided to create this website as a way for me to keep a visual log of my projects and career accomplishments.
 
@@ -57,3 +57,6 @@ Sam Guyette - samguyette@gmail.com
 
 Project Link: [https://github.com/Samguyette/Personal-Website](https://github.com/Samguyette/Personal-Website)
 
+
+
+[product-screenshot]: img/screenShot.jpg
